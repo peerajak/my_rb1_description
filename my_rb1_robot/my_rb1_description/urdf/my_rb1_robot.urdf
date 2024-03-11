@@ -243,11 +243,17 @@ Done front_laser
     </inertial>
 
     <collision>
-        <origin rpy="1.5707 0 0" xyz="0 0 0" />
+	    <origin rpy="1.5707 0 0" xyz="0 0 0" />
+	    <geometry>
+			<box size="0 0 0"/>
+	    </geometry>
     </collision>
 
     <visual>
         <origin rpy="1.5707 0 0" xyz="0 0 0" />
+	    <geometry>
+			<box size="0 0 0"/>
+	    </geometry>
     </visual>
 
 </link> 
